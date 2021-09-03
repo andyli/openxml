@@ -110,9 +110,10 @@ haxe-travix@^0.10.2:
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/haxe-travix/-/haxe-travix-0.10.2.tgz#22d9c774b80e12e5170130ea4b78125ba749197a"
 
-haxeshim@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/haxeshim/-/haxeshim-0.12.2.tgz#f2f876ddc84c1d8650dae984d95e4eea28792f60"
+haxeshim@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/haxeshim/-/haxeshim-0.12.4.tgz#c733f6f1c3b43a80779d31a746fb3bf051c9be01"
+  integrity sha512-XeUpO8Cn1o4HrMP9PhRqLDseakyengcq/fV6E4ZQUkczQLPUHJA5buGIvRGi2Cruu4CmMUobtKUkrgBTuXhpHQ==
 
 inflight@^1.0.4:
   version "1.0.6"
