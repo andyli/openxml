@@ -106,15 +106,6 @@ graceful-fs@^4.1.0:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-haxe-travix@^0.10.2:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/haxe-travix/-/haxe-travix-0.10.2.tgz#22d9c774b80e12e5170130ea4b78125ba749197a"
-
-haxeshim@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/haxeshim/-/haxeshim-0.12.4.tgz#c733f6f1c3b43a80779d31a746fb3bf051c9be01"
-  integrity sha512-XeUpO8Cn1o4HrMP9PhRqLDseakyengcq/fV6E4ZQUkczQLPUHJA5buGIvRGi2Cruu4CmMUobtKUkrgBTuXhpHQ==
-
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -135,10 +126,6 @@ lazystream@^1.0.0:
   resolved "https://registry.yarnpkg.com/lazystream/-/lazystream-1.0.0.tgz#f6995fe0f820392f61396be89462407bb77168e4"
   dependencies:
     readable-stream "^2.0.5"
-
-lix.pm@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/lix.pm/-/lix.pm-0.14.0.tgz#9e099a8452b459db0026654608a6625109b13121"
 
 lodash@^4.14.0, lodash@^4.8.0:
   version "4.17.4"
