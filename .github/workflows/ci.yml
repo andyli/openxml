@@ -8,7 +8,6 @@ jobs:
         with:
           submodules: true
       - run: sudo apt-get install -qqy nuget mono-complete
-      - run: yarn
       - run: yarn global add lix --prefix /usr/local
       - run: lix download
       - run: cp lib/System.Xml.Linq.dll lib/System.Xml.dll "$(haxelib path hxcs | head -n 1)/netlib/net-40/"
@@ -17,4 +16,4 @@ jobs:
       - run: xbuild /p:Configuration=Release Open-XML-SDK.sln
         working-directory: ./sdk
       - run: haxe validator.hxml
-      - run: yarn run travix node
+      - run: lix run travix node

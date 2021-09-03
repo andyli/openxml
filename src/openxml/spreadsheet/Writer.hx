@@ -1,7 +1,7 @@
 package openxml.spreadsheet;
 
-import archive.*;
-import archive.zip.*;
+import why.archive.*;
+import why.archive.zip.*;
 import openxml.ContentTypes;
 import openxml.CoreProperties;
 import openxml.ExtendedProperties;

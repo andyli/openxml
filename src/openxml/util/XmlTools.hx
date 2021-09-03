@@ -1,5 +1,5 @@
 package openxml.util;
-import archive.Entry;
+import why.archive.Entry;
 using haxe.xml.Printer;
 using openxml.util.XmlTools;
 
@@ -51,7 +51,7 @@ class XmlTools
 		xml.set(name, Std.string(value));
 	}
 	
-	public static function toEntry(obj:IXml, path:String):Entry<Noise> {
+	public static function toEntry<Quality>(obj:IXml, path:String):Entry<Quality> {
 		var xml = obj.toXml().toString();
 		return {
 			name: path,

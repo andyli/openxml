@@ -39,7 +39,7 @@ class TestSpreadsheet {
 		ws.getCell(4, 5).format.fill = fill;
 		
 		
-		var w = new Writer(new archive.zip.NodeZip());
+		var w = new Writer(new why.archive.zip.NodeZip());
 		var path = 'bin/output.xlsx';
 		w.write(wb).pipeTo(tink.io.Sink.ofNodeStream('name', js.node.Fs.createWriteStream(path)))
 			.handle(function(o) {

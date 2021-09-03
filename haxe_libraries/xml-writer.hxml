@@ -1,3 +1,3 @@
-# @install: lix --silent download "https://github.com/kevinresol/xml-writer/archive/d207cf0ec883b25584fbb87cbdd73d483e040d73.tar.gz" into xml-writer/0.0.0/github/d207cf0ec883b25584fbb87cbdd73d483e040d73
+# @install: lix --silent download "gh://github.com/kevinresol/xml-writer#d207cf0ec883b25584fbb87cbdd73d483e040d73" into xml-writer/0.0.0/github/d207cf0ec883b25584fbb87cbdd73d483e040d73
+-cp ${HAXE_LIBCACHE}/xml-writer/0.0.0/github/d207cf0ec883b25584fbb87cbdd73d483e040d73/src
 -D xml-writer=0.0.0
--cp ${HAXESHIM_LIBCACHE}/xml-writer/0.0.0/github/d207cf0ec883b25584fbb87cbdd73d483e040d73/src

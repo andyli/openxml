@@ -13,7 +13,7 @@ class TestWordprocessing {
 		
 		var path = 'bin/output.docx';
 		
-		var w = new Writer(new archive.zip.NodeZip());
+		var w = new Writer(new why.archive.zip.NodeZip());
 		var path = 'bin/output.docx';
 		w.write(doc).pipeTo(tink.io.Sink.ofNodeStream('name', js.node.Fs.createWriteStream(path)))
 			.handle(function(o) {

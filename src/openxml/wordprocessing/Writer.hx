@@ -1,6 +1,6 @@
 package openxml.wordprocessing;
 
-import archive.zip.Zip;
+import why.archive.zip.Zip;
 import openxml.ContentTypes;
 import openxml.CoreProperties;
 import openxml.ExtendedProperties;

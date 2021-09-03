@@ -1,0 +1,4 @@
+# @install: lix --silent download "gh://github.com/why-haxe/why-archive#c1dd94bce08a0318cd1b5ce80acf8f74c2f437ff" into why-archive/0.1.0/github/c1dd94bce08a0318cd1b5ce80acf8f74c2f437ff
+-lib tink_io
+-cp ${HAXE_LIBCACHE}/why-archive/0.1.0/github/c1dd94bce08a0318cd1b5ce80acf8f74c2f437ff/src
+-D why-archive=0.1.0
