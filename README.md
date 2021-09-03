@@ -47,7 +47,6 @@ Copy `System.Xml.dll` and `System.Xml.Linq.dll` from .NET 4.0 to `<hxcs-path>/ne
 Then run the following:
 ```
 haxe validator.hxml
-haxelib install travix
-haxelib run travix install
-haxelib run travix neko
+lix download
+lix run travix node
 ```
