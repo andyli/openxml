@@ -9,6 +9,6 @@
 	"releasenote": "Alpha",
 	"dependencies": {
 		"xml-writer": "",
-		"archive": ""
+		"why-archive": ""
 	}
 }
