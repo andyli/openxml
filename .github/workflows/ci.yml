@@ -9,6 +9,7 @@ jobs:
           submodules: true
       - run: sudo apt-get install -qqy nuget mono-complete
       - run: yarn global add lix --prefix /usr/local
+      - run: yarn
       - run: lix download
       - run: cp lib/System.Xml.Linq.dll lib/System.Xml.dll "$(haxelib path hxcs | head -n 1)/netlib/net-40/"
       - run: nuget restore Open-XML-SDK.sln
